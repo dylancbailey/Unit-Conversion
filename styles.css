@@ -1,0 +1,66 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 729px;
+    margin: 0 auto;
+}
+
+/* Top Section */
+.top {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #6943FF;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#input {
+    width: 15%;
+    background: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 1rem 0;
+}
+#convert-btn {
+    width: 17%;
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+    background: white;
+    color: #6943FF;
+    margin-bottom: 1.5rem;
+}
+
+/* Bottom Section */
+.bottom {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F4F4F4;
+}
+.card {
+    background: white;
+    width: 90%;
+    text-align: center;
+    margin: 1rem 0;
+}
