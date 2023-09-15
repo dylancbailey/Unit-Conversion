@@ -88,9 +88,11 @@ h1 {
 }
 .card p {
     text-align: center;
+    color: #4C1D95;
 }
 h2 {
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #4C1D95;
 }
