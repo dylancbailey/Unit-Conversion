@@ -37,8 +37,8 @@ h1 {
 #input-el {
     width: 5rem;
     height: 3rem;
-    background: none;
-    border: 2px solid white;
+    background: #4C1D95;
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     font-size: 2rem;
     font-weight: bold;
@@ -63,7 +63,7 @@ h1 {
 }
 
 /* Bottom Section */
-.bottom {
+#bottom {
     width: 550px;
     display: flex;
     flex-direction: column;
